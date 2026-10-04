@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-agent-booking-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WhatsApp booking agent where the model talks and deterministic tools own money, bookings and attribution.",
+  "scripts": {
+    "test": "vitest run",
+    "demo": "tsx src/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
